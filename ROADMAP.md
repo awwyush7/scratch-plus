@@ -1,7 +1,7 @@
 # Scratch+ Roadmap
 
 - [x] **Phase 0** — Repo Setup: README, ROADMAP, docs/, scratchplus/ package, pytest, benchmark/
-- [ ] **Phase 1** — TCP Core: listener, accept loop, connection abstraction, read/write buffers, timeout, graceful close, echo server (blocking → async/threaded)
+- [x] **Phase 1** — TCP Core: listener, accept loop, connection abstraction, read/write buffers, timeout, graceful close, echo server (blocking → async/threaded)
 - [ ] **Phase 2** — Classic HTTP/1.1 Subset: request/response parsing, routing, keep-alive, JSON/static responses
 - [ ] **Phase 3** — Classic HTTP/1.1 Pipelining: multi-request on one connection, in-order responses, HOL-blocking demo
 - [ ] **Phase 4** — Pipelining+ / HTTP/1.15: out-of-order responses via Request-ID, concurrent processing, benchmark vs classic
