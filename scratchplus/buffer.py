@@ -27,5 +27,9 @@ class ByteBuffer:
         del self._data[:end]
         return chunk
 
+    def find(self, needle: bytes) -> int:
+        """Return the index of needle in the buffer, or -1."""
+        return self._data.find(needle)
+
     def __len__(self) -> int:
         return len(self._data)
