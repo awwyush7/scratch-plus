@@ -8,4 +8,4 @@
 - [x] **Phase 5** — Benchmarking and Reports: repeatable workloads, latency metrics, p50/p95, HOL-blocking measurements
 - [x] **Phase 6** — Classic SSE: text/event-stream, data/event/id fields, heartbeat, reconnect demo
 - [x] **Phase 7** — Classic WebSocket: HTTP upgrade, Sec-WebSocket-Key/Accept, text frames, ping/pong, close frame
-- [ ] **Phase 8** — Classic Multiplexing Toy: frame header (stream ID, type, payload length), DATA/HEADERS/END frames
+- [x] **Phase 8** — Classic Multiplexing Toy: frame header (stream ID, type, payload length), DATA/HEADERS/END frames; true interleaving contrast with Pipelining+

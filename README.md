@@ -16,6 +16,18 @@ docs/             # design notes and tradeoff writeups
 
 ## Phases
 
+| Phase | Topic |
+|-------|-------|
+| 0 | Repo Setup |
+| 1 | TCP Core (echo server, async variant) |
+| 2 | Classic HTTP/1.1 Subset |
+| 3 | Classic HTTP/1.1 Pipelining + HOL-blocking demo |
+| 4 | Pipelining+ / HTTP/1.15 (out-of-order responses via Request-ID) |
+| 5 | Benchmarking and Reports |
+| 6 | Classic SSE (text/event-stream, heartbeat, reconnect) |
+| 7 | Classic WebSocket (upgrade handshake, frames, ping/pong) |
+| 8 | Classic Multiplexing Toy (binary frames, stream IDs, true interleaving) |
+
 See [ROADMAP.md](ROADMAP.md) for phase checklist and [SPEC.md](SPEC.md) for full spec.
 
 ## Running tests
