@@ -6,6 +6,6 @@
 - [x] **Phase 3** — Classic HTTP/1.1 Pipelining: multi-request on one connection, in-order responses, HOL-blocking demo
 - [x] **Phase 4** — Pipelining+ / HTTP/1.15: out-of-order responses via Request-ID, concurrent processing, benchmark vs classic
 - [x] **Phase 5** — Benchmarking and Reports: repeatable workloads, latency metrics, p50/p95, HOL-blocking measurements
-- [ ] **Phase 6** — Classic SSE: text/event-stream, data/event/id fields, heartbeat, reconnect demo
+- [x] **Phase 6** — Classic SSE: text/event-stream, data/event/id fields, heartbeat, reconnect demo
 - [ ] **Phase 7** — Classic WebSocket: HTTP upgrade, Sec-WebSocket-Key/Accept, text frames, ping/pong, close frame
 - [ ] **Phase 8** — Classic Multiplexing Toy: frame header (stream ID, type, payload length), DATA/HEADERS/END frames
